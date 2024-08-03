@@ -47,7 +47,7 @@ img {
 
 .Name {
   font-weight: 700;
-  font-style: 45px;
+  font-size: 45px;
   line-height: 1.2;
   margin-bottom: 12px;
 }
@@ -223,4 +223,78 @@ img {
   font-size: 14px;
   line-height: 1.71429;
   color: #161d2a;
+}
+
+/* ------MEDIA------ */
+
+@media (max-width: 1023px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .my-projects {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .my-projects-descr {
+    text-align: center;
+  }
+
+  .experience {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .education {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-content {
+    margin-bottom: 22px;
+  }
+
+  .my-photo {
+    display: none;
+  }
+
+  .sidebar-container {
+    margin: 0 auto;
+  }
+
+  .contacts-title {
+    margin: 0 auto 8px;
+  }
+
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-container-mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
